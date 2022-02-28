@@ -10,6 +10,25 @@
 # Affichez ces variables
 
 # réponse 2.1
+nombre = 42
+print(nombre)
+
+nombre_dor = 1.61
+print(nombre_dor)
+
+text = "Thomas Czarnecki"
+print(text)
+
+is_matin = True
+print(is_matin)
+
+isnot_matin = False
+print(isnot_matin)
+
+has_accepted_ula = None
+print(has_accepted_ula)
+
+
 
 # code 2.1
 # la fonction `round()` permet d'arrondir un float en un integer
@@ -31,3 +50,7 @@ print(round(1 / 3, 4))
 
 # réponse 2.2
 
+nombre = 2.0
+print(nombre)
+
+nombre = 

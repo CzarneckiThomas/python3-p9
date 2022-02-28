@@ -11,6 +11,7 @@ print(text)
 
 # exo 1.2
 # Affichez le message "programme terminé" en utilisant des simples quotes
-
+text = 'programme terminé'
+print(text)
 # réponse 1.2
 
