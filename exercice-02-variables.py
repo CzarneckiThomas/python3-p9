@@ -53,4 +53,3 @@ print(round(1 / 3, 4))
 nombre = 2.0
 print(nombre)
 
-nombre = 
