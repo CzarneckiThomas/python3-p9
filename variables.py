@@ -140,7 +140,7 @@ b = a - b # b = (42 + 123) - 123
 a = a - b # a = (42 + 123) - 42 = 123
 
 #destructured assignement
-# pour python, js mais pas pour php
+# pour python, js mais pas pour php.
 a, b = b, a 
 
 if a == 123 and b == 42:
