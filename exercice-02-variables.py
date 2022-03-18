@@ -19,11 +19,10 @@ print(nombre_dor)
 text = "Thomas Czarnecki"
 print(text)
 
-is_matin = True
-print(is_matin)
+is_morning = True
+print(is_morning) ?????????
 
-isnot_matin = False
-print(isnot_matin)
+
 
 has_accepted_ula = None
 print(has_accepted_ula)
@@ -50,6 +49,18 @@ print(round(1 / 3, 4))
 
 # réponse 2.2
 
-nombre = 2.0
+nombre = 2
+nombre = float(nombre)
+print(nombre)
+
+nombre = 1.62
+nombre = int(nombre)
+print(nombre)
+
+nombre = round(1.62)
+print(nombre)
+nombre = int(nombre)
+
+nombre = round(1.62, 1)
 print(nombre)
 
