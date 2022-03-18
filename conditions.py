@@ -176,7 +176,7 @@ if 123:
     print("il y a une valeur numerique")
 
 if 0: 
-    #le message ne s'affichera pas car bool(0) == false
+    #le message ne s'affichera pas car bool(0) == false .
     print("il y a une valeur nulle")
 
     
