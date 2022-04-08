@@ -1,4 +1,5 @@
 # complexité == efficacité
+
 # efficacité :
 # - temps d'exécution
 # - espace mémoire
