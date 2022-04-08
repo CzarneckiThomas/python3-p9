@@ -7,7 +7,7 @@ import random
 # - for each (boucle for en python) : cas où on veut passer en revue tous les éléments d'une liste (répéter autant de fois que d'éléments dans la liste)
 
 # reproduction d'une boucle for classique avec une boucle while
-# condition d'initialisation
+# condition d'initialisation.
 counter = 0
 # taille de la boucle
 limit = 10
