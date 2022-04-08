@@ -128,7 +128,3 @@ result = a < c < b
 print(c)
 print(result)
 
-
-
-
-

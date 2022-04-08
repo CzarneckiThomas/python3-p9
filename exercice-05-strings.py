@@ -7,9 +7,17 @@
 # réponse 5.1
 def multiplication(a: float, b: float) -> float:
 
-    """ Renvoie le produit a*b """
+    """ Renvoie le produit des nombres a et  b 
+     a float le nombre a
+     b float le nombre b
+     return float
+    
+    
+    """
     return a * b
- 
+
+help(multiplication)
+
 # print(help(multiplication))
 
 
@@ -25,7 +33,6 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 print(my_text.find("minim"))
 
-
 # exo 5.3
 # Affectez les caractères de l'index 12 à 20 inclus, de la variable `my_text`, à une autre variable
 # Affichez le résultat ; le résultat devrait être `dolor sit`
@@ -38,9 +45,6 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 my_shorttext = my_text[12 : 21]
 print(my_shorttext)
-
-
-
 
 
 # code 5.1
@@ -89,7 +93,31 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.5
 
-new_text=my_text.split('\n')
+#methode 1
+new_text=my_text.split("\n")
 print(len(new_text))
+
+
+#methode 2
+position = my_text.find("\n", position)
+if position != -1:
+    occurences += 1
+
+position = my_text.find("\n", position + 1)
+if position != -1:
+    occurences += 1
+
+position = my_text.find("\n", position + 1)
+if position != -1:
+    occurences += 1
+
+
+print("occurences:", occurences)
+
+
+
+
+
+
 
 

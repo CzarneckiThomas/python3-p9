@@ -25,7 +25,6 @@ else:
      print("le nombre est different de 1")
 
 
-
 # code 4.2
 # si 10 est un nombre pair, le modulo de 2 est égal à zéro
 print(10 % 2)
